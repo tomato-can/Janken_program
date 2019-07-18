@@ -26,7 +26,6 @@ def base
 
 	if choice ==0 || choice ==1 || choice ==2
 		puts "あなたの手: #{hand}, 相手の手:#{versus_hand}"
-		<br />
 		puts janken(choice, versus)
 	else
 		puts "入力された値が無効です。"
@@ -35,7 +34,3 @@ end
 
 puts "最初はグー、じゃんけん..."
 base
-
-
-
-
